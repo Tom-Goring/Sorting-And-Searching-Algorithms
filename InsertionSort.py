@@ -25,6 +25,7 @@ def insertion_sort(alist):
         currentvalue = alist[index]
         position = index
 
+        # find location to put new card, and swap it backwards until it gets there
         while position > 0 and alist[position - 1] > currentvalue:
 
             alist[position] = alist[position - 1]
