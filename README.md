@@ -1,5 +1,5 @@
 # Sorting-And-Searching-Algorithms
-A collection of sorting and searching algorithms implemented in Python.
+A collection of sorting and searching algorithms implemented in Python - Basically revision for DADSA module, but perhaps useful to others.
 
 ## Bubble Sort
 
