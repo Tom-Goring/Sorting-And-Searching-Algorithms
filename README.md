@@ -36,3 +36,13 @@ of advantages over other O(n^2) algorithms:
 4. Stable - doesn't sort items with equal keys
 5. In-place - Requires constant memory of O(1) space.
 6. Online - can sort a list when given items one at a time.
+
+## Shell Sort Information
+
+Worst Case Performance: O(n^2) for worst gap sequence, O(nlogn) for best known.
+Best Case Performance: O(n)
+Average Performance: dependant on gaps
+
+Shell sort is an improvement/variant on Insertion Sort. Instead of comparing only adjacent values as in IS, it performs
+comparisons across long gaps. The gaps change in size as the list becomes more ordered. The method used to change the
+gap size has a huge impact on the average running time of the algorithm.
