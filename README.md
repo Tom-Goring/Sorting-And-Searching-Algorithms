@@ -41,3 +41,20 @@ gap size has a huge impact on the average running time of the algorithm.
 ## Quick Sort Information
 
 Quick Sort breaks down a given list into smaller sub-lists, and then these smaller lists are sorted either recursively or iteratively until they are all sorted. All the lists are then appended into one fully sorted list.
+
+## Selection Sort Information
+
+Selection Sort picks the smallest element in the list and swaps it to the first position, then the second smallest into
+the second position, etc. Selection sort is an in-place sort.
+
+## Comb Sort Information
+
+Comb sort extends Bubble Sort to solve the turtle problem. It's slightly faster on average than bubble sort. Comb
+sort works by comparing elements with a gap in-between, and slowly decreasing the size of the gap as the algorithm
+progresses. The final run of comb should be the same as that of bubble, albeit with greater efficiency due to the
+removal of turtles.
+
+## Merge Sort Information
+
+Merge sort works by dividing a list into n sublists each of size 1, then repeatedly merging the sublists until there
+is only one list remaining, which will be sorted.
